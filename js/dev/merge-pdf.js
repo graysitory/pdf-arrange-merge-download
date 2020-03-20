@@ -5,7 +5,7 @@
 
 
 
-  async function asyncForEach(arr, callback) {
+async function asyncForEach(arr, callback) {
     for (let index = 0; index < arr.length; index++) {
       await callback(arr[index], index, arr);
     }
@@ -48,5 +48,3 @@ async function mergeMultiplePDFs(pdfArr) {
   download(pdfSave, "pdf-title.pdf", "application/pdf")
 
 }
-
-mergeMultiplePDFs(pdfs)

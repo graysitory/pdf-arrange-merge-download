@@ -75,43 +75,54 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/js/downloadjs@1.4.7": {
+	"/js/dependencies/downloadjs@1.4.7": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/js/downloadjs@1.4.7",
+		"oAP": "/js/dependencies/downloadjs@1.4.7",
 		"oF": 0
 		},
-	"/js/index-min.js": {
+	"/js/dependencies/pdf-lib@1.4.0": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/dependencies/pdf-lib@1.4.0",
+		"oF": 0
+		},
+	"/js/dev/interaction.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/index-min-min.js",
-		"oF": 0,
+		"oAP": "/js/production/interaction-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
-	"/js/index.js": {
+	"/js/dev/merge-pdf.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/index-min.js",
-		"oF": 0,
-		"sC": 0,
+		"oAP": "/js/production/merge-pdf-min.js",
+		"oF": 2,
+		"sC": 3,
 		"tS": 0
 		},
-	"/js/pdf-lib@1.4.0": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/js/production/merge-pdf-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/pdf-lib@1.4.0",
-		"oF": 0
+		"oAP": "/js/production/merge-pdf-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/license.txt": {
 		"cB": 0,
@@ -589,8 +600,8 @@
 		},
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
-	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintECMAVersion": 8,
+	"esLintEnvironmentsMask": 19,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1341,7 +1352,7 @@
 			"optionString": ""
 			},
 		"no-unused-vars": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
