@@ -11,68 +11,6 @@
     }
   }
 
-//   async function mergePDFs(pdfs) {
-//     // pdfs.forEach(el => {
-//     //   console.log(el)
-//     // });
-//
-//     // create a new PDF
-//     const pdfDoc = await PDFDocument.create();
-//
-//     let getPDF = await fetch('http://mbp2.local:5757/assets/pdf/2019-05-01_Parking_May.pdf').then(res => res.arrayBuffer())
-//
-//     console.log(getPDF)
-//
-//     const srcDoc = await PDFDocument.load(getPDF)
-//
-//     // get indices of all pages in document to pass to copyPages()
-//     const indices = srcDoc.getPageIndices()
-//
-//     const copiedPages = await pdfDoc.copyPages(srcDoc, indices)
-//
-//     copiedPages.forEach((element, index) => {
-//       pdfDoc.addPage(element)
-//     })
-//
-//
-//
-//
-//
-//     const pdfBytes = await pdfDoc.save()
-//
-//     download(pdfBytes, "pdf-title.pdf", "application/pdf")
-//
-//   }
-//
-// async function loadPDFs(url) {
-//   let getPDF = await fetch(url).then(res => res.arrayBuffer())
-//   const srcDoc = await PDFDocument.load(getPDF)
-//   const result = srcDoc.getPages()
-//   return result
-// }
-
-
-// async function mergeMultiplePDFs(pdfs) {
-//
-//   const pdfDoc = await PDFDocument.create();
-//   let allPages = []
-//
-//   console.log(pdfs.length)
-//   pdfs.forEach((element, index) => {
-//     allPages.push(loadPDFs(element))
-//   })
-//
-//
-//   const pdfBytes = await pdfDoc.save();
-//   download(pdfBytes, "pdf-title.pdf", "application/pdf")
-// }
-
-// async function copyPagesToMasterPDF(arr, target) {
-//   arr.forEach(element => {
-//     target.copyPages(element)
-//   })
-// }
-
 async function mergeMultiplePDFs(pdfArr) {
 
   // create a master PDF
