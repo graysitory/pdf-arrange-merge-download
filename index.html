@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
 
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/master.css">
 
 
 
@@ -17,12 +17,24 @@
 
   <body>
 
-    content
+    <section id="main">
 
-    <button id="btn">download</button>
+      <ul id="include" class="connected-sortable"></ul>
+      <ul id="exclude" class="connected-sortable"></ul>
+
+    </section>
+
+    <section id="download">
+      <button id="btn">download</button>
+    </section>
+
 
     <script src='js/dependencies/downloadjs@1.4.7'></script>
     <script src='js/dependencies/pdf-lib@1.4.0'></script>
+    <!-- <script src='js/dependencies/jquery-3.4.1.slim.min.js'></script>
+    <script src='js/dependencies/jquery-ui.min.js'></script> -->
+    <script src="js/dependencies/jquery-1.12.4.js"></script>
+    <script src="js/dependencies/jquery-ui.js"></script>
     <script src="js/production/merge-pdf-min.js"></script>
     <script src="js/production/interaction-min.js"></script>
 

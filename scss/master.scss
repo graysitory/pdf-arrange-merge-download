@@ -1,0 +1,59 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width:  80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+}
+
+
+#main {
+  width: 100%;
+  border: 1px solid pink;
+  display: flex;
+  flex-direction: row;
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    padding: 10px;
+    user-select: none;
+  }
+
+  .connected-sortable {
+    list-style: none;
+  }
+
+  #include {
+    width: 40%;
+    margin-right: 10%;
+    border: 1px solid orange;
+
+    li {
+      background-color: yellow;
+    }
+  }
+
+  #exclude {
+    width: 40%;
+    border: 1px solid red;
+
+    li {
+      color: gray;
+    }
+  }
+}
+
+#download {
+  width: 100%;
+
+}

@@ -1,0 +1,14 @@
+html { font-family: sans-serif; }
+
+body { width: 80vw; margin: 0 auto; display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; border: 1px solid blue; }
+
+#main { width: 100%; border: 1px solid pink; display: -webkit-box; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; }
+#main ul { padding: 0; list-style-type: none; }
+#main li { padding: 10px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+#main .connected-sortable { list-style: none; }
+#main #include { width: 40%; margin-right: 10%; border: 1px solid orange; }
+#main #include li { background-color: yellow; }
+#main #exclude { width: 40%; border: 1px solid red; }
+#main #exclude li { color: gray; }
+
+#download { width: 100%; }
