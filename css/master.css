@@ -8,7 +8,7 @@ body { width: 80vw; margin: 0 auto; display: -webkit-box; display: flex; -webkit
 #main .connected-sortable { list-style: none; }
 #main #include { width: 40%; margin-right: 10%; border: 1px solid orange; }
 #main #include li { background-color: yellow; }
-#main #exclude { width: 40%; border: 1px solid red; }
+#main #exclude { width: 40%; min-height: 100px; border: 1px solid red; }
 #main #exclude li { color: gray; }
 
 #download { width: 100%; }

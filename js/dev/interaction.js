@@ -1,6 +1,11 @@
 // run and download event listener
 document.getElementById("btn").addEventListener("click", () => {
-  mergeMultiplePDFs(pdfs)
+
+  // serialize final order of list items
+  var orderList = $("#include").sortable("toArray", { attribute: "data-filename" })
+  console.log(orderList)
+
+  mergeMultiplePDFs(orderList)
 })
 
 
@@ -11,7 +16,8 @@ document.getElementById("btn").addEventListener("click", () => {
 var projects = {
   "L00909": {
     "project": {
-      "name": "Google Spruce Goose",
+      "name": "Spruce Goose Office Complex",
+      "client": "Google",
       "office": "LAX",
       "proj_number": "L00909",
       "completed": 2018,
@@ -25,7 +31,8 @@ var projects = {
   },
   "L90943": {
     "project": {
-      "name": "ZGF Los Angeles Office",
+      "name": "Los Angeles Office",
+      "client": "ZGF Architects",
       "office": "LAX",
       "proj_number": "L90943",
       "completed": 2020,
@@ -39,7 +46,8 @@ var projects = {
   },
   "P32834": {
     "project": {
-      "name": "Expensify Portland",
+      "name": "Portland Office",
+      "client": "Expensify",
       "office": "PDX",
       "proj_number": "P32834",
       "completed": 2019,
@@ -54,18 +62,24 @@ var projects = {
 }
 
 function buildProjectsList(projects) {
-  var counter = 10;
 
-  for (let i = 0; i < counter; i++) {
-    var node = document.createElement("li");
-    node.innerHTML = `Item ${i}`
-    document.getElementById("include").appendChild(node);
-  }
+  for (x in projects) {
+    const clientName = projects[x].project.client;
+    const projName = projects[x].project.name;
+    const projNum = projects[x].project.proj_number;
+    const filename = projects[x].file.name;
 
-  for (let i = 0; i < counter; i++) {
-    var node2 = document.createElement("li");
-    node2.innerHTML = `Item ${i}`
-    document.getElementById("exclude").appendChild(node2);
+    console.log(`${clientName}, ${projName}  ${projNum}  ${filename}`)
+
+    let node = document.createElement("li");
+    node.innerHTML =  `${clientName} - ${projName} | ${projNum}`
+    node.id = `${projNum}`
+    node.dataset.projNum = projNum
+    node.dataset.filename = filename
+
+
+    document.getElementById("include").appendChild(node)
+
   }
 
 
@@ -74,7 +88,7 @@ function buildProjectsList(projects) {
 
 
 
-buildProjectsList()
+buildProjectsList(projects)
 
 // jquery sortable
 

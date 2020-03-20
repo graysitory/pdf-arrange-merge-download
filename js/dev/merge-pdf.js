@@ -15,11 +15,14 @@ async function mergeMultiplePDFs(pdfArr) {
 
   // create a master PDF
   const masterPDF = await PDFDocument.create();
-  console.log(pdfArr.length);
+  console.log(`${pdfArr.length} documents to merge`);
 
   // asynchronously get, load, and copy PDF to new doc.
-  await asyncForEach(pdfArr, async (url) => {
-    console.log(`Retrieving ${url}...`)
+  await asyncForEach(pdfArr, async (filename) => {
+    console.log(`Retrieving ${filename}...`)
+
+    const url = `http://mbp2.local:5757/assets/pdf/${filename}`
+    console.log(url)
 
     // fetch PDF
     let getPDF = await fetch(url).then(response => response.arrayBuffer());
