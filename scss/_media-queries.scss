@@ -1,0 +1,32 @@
+// https://davidwalsh.name/write-media-queries-sass
+
+$mobile-width: 320px;
+$tablet-width: 740px;
+$desktop-width: 980px;
+$wide-width: 1300px;
+
+@mixin mobile {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) and (max-width: #{$wide-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin wide {
+  @media (min-width: #{$wide-width}) {
+    @content;
+  }
+}
+
+// and (min-device-pixel-ratio: 2)

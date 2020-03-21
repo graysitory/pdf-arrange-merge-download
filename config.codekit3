@@ -17,6 +17,30 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/assets/pdf/2020-03-19_ZGF Interiors.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/pdf/2020-03-19_ZGF Interiors.pdf",
+		"oF": 0
+		},
+	"/assets/pdf/_interiors_additional-clients.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/pdf/_interiors_additional-clients.pdf",
+		"oF": 0
+		},
+	"/assets/pdf/_interiors_back.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/pdf/_interiors_back.pdf",
+		"oF": 0
+		},
 	"/assets/pdf/_interiors_Cover.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -57,6 +81,30 @@
 		"oAP": "/assets/pdf/L98372_interiors_cedars-sinai-6500-wilshire.pdf",
 		"oF": 0
 		},
+	"/assets/pdf/N15158_interiors_akridge-1200-seventeenth.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/pdf/N15158_interiors_akridge-1200-seventeenth.pdf",
+		"oF": 0
+		},
+	"/assets/pdf/P00004_interiors_washington-trust-bank.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/pdf/P00004_interiors_washington-trust-bank.pdf",
+		"oF": 0
+		},
+	"/assets/pdf/P22965_interiors_clif-bar-headquarters.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/pdf/P22965_interiors_clif-bar-headquarters.pdf",
+		"oF": 0
+		},
 	"/assets/pdf/P32834_interiors_expensify-portland.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -71,6 +119,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/pdf/P48294_interiors_hanna-andersson-portland.pdf",
+		"oF": 0
+		},
+	"/assets/pdf/S54187_interiors_soma.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/pdf/S54187_interiors_soma.pdf",
 		"oF": 0
 		},
 	"/assets/projects.json": {
@@ -222,6 +278,32 @@
 		"oA": 0,
 		"oAP": "/README.txt",
 		"oF": 0
+		},
+	"/scss/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_media-queries.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_media-queries.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/scss/master.scss": {
 		"aP": 1,
@@ -747,7 +829,7 @@
 			"optionString": "{'exceptMethods': []}"
 			},
 		"comma-dangle": {
-			"active": 1,
+			"active": 0,
 			"optionString": "'never'"
 			},
 		"comma-spacing": {

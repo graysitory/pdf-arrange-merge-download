@@ -5,13 +5,15 @@
 
 
 
+// async-enabled forEach function.
+// https://codeburst.io/javascript-async-await-with-foreach-b6ba62bbf404
 async function asyncForEach(arr, callback) {
     for (let index = 0; index < arr.length; index++) {
       await callback(arr[index], index, arr);
     }
   }
 
-async function mergeMultiplePDFs(pdfArr) {
+async function mergeMultiplePDFs(pdfArr, downloadFilename) {
 
   // create a master PDF
   const masterPDF = await PDFDocument.create();
@@ -48,6 +50,6 @@ async function mergeMultiplePDFs(pdfArr) {
   const pdfSave = await masterPDF.save();
 
   // download master PDF
-  download(pdfSave, "pdf-title.pdf", "application/pdf")
+  download(pdfSave, `${downloadFilename}.pdf`, "application/pdf")
 
 }

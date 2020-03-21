@@ -18,14 +18,23 @@
   <body>
 
     <section id="main">
+      <div class="column-wrap">
+        <p class="column-header">Include</p>
+        <ul id="include" class="connected-sortable"></ul>
+      </div>
+      <div class="column-spacer"></div>
+      <div class="column-wrap">
+        <p class="column-header">Exclude</p>
+        <ul id="exclude" class="connected-sortable"></ul>
+      </div>
+    </section>
 
-      <ul id="include" class="connected-sortable"></ul>
-      <ul id="exclude" class="connected-sortable"></ul>
-
+    <section id="filename">
+      <span>Filename: </span><input id="download-filename" type="text" name="filename" value="quals">
     </section>
 
     <section id="download">
-      <button id="btn">download</button>
+      <button id="btn" class="btn">download</button>
     </section>
 
 

@@ -1,14 +1,48 @@
-html { font-family: sans-serif; }
+/*---------------------------------------------------------------------------* SF UI Display ---------------------------------------------------------------------------*/
+/** Black */
+@font-face { font-family: "SF Display"; font-weight: 900; src: url("https://sf.abarba.me/SF-UI-Display-Black.otf"); }
+/** Bold */
+@font-face { font-family: "SF Display"; font-weight: 700; src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf"); }
+/** Heavy */
+@font-face { font-family: "SF Display"; font-weight: 800; src: url("https://sf.abarba.me/SF-UI-Display-Heavy.otf"); }
+/** Light */
+@font-face { font-family: "SF Display"; font-weight: 200; src: url("https://sf.abarba.me/SF-UI-Display-Light.otf"); }
+/** Medium */
+@font-face { font-family: "SF Display"; font-weight: 500; src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf"); }
+/** Regular */
+@font-face { font-family: "SF Display"; font-weight: 400; src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf"); }
+/** Semibold */
+@font-face { font-family: "SF Display"; font-weight: 600; src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf"); }
+/** Thin */
+@font-face { font-family: "SF Display"; font-weight: 300; src: url("https://sf.abarba.me/SF-UI-Display-Thin.otf"); }
+/** Ultralight */
+@font-face { font-family: "SF Display"; font-weight: 100; src: url("https://sf.abarba.me/SF-UI-Display-Ultralight.otf"); }
+html { box-sizing: border-box; font-size: 16px; font-family: "SF Display", sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-body { width: 80vw; margin: 0 auto; display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; border: 1px solid blue; }
+body { width: 80vw; margin: 0 auto; display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; }
 
-#main { width: 100%; border: 1px solid pink; display: -webkit-box; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; }
-#main ul { padding: 0; list-style-type: none; }
-#main li { padding: 10px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
-#main .connected-sortable { list-style: none; }
-#main #include { width: 40%; margin-right: 10%; border: 1px solid orange; }
-#main #include li { background-color: yellow; }
-#main #exclude { width: 40%; min-height: 100px; border: 1px solid red; }
-#main #exclude li { color: gray; }
+input { border: 1px solid #f8f8f8; background-color: #f8f8f8; border-radius: 0.3rem; padding: 10px; }
+input:focus { border: 1px solid #f8f8f8; }
 
-#download { width: 100%; }
+.btn { padding: 0.6rem; color: #5a5a5a; background-color: #f8f8f8; border: 1px solid #5a5a5a; text-transform: uppercase; letter-spacing: 0.12rem; font-weight: 700; border-radius: 0.3rem; }
+.btn:hover { background-color: #5a5a5a; color: white; -webkit-transition: all 0.3s; transition: all 0.3s; }
+
+#main { width: 100%; margin: 4rem auto; display: -webkit-box; display: flex; -webkit-box-pack: center; justify-content: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: default; }
+#main .column-spacer { width: 2rem; }
+#main .column-wrap { width: 40%; background-color: gainsboro; }
+#main .column-wrap .column-header { font-size: 1.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05rem; padding: 0.5rem; margin: 0; color: white; background-color: #5a5a5a; }
+#main .column-wrap ul { padding: 0; list-style-type: none; }
+#main .column-wrap li { margin-bottom: 0.2rem; background-color: #f8f8f8; border-radius: 0.3rem; padding-top: 0.2rem; padding-right: 1rem; padding-bottom: 0.5rem; padding-left: 1rem; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+#main .column-wrap li .client { font-size: 1rem; font-weight: 600; }
+#main .column-wrap li .project { font-size: 1rem; font-weight: 400; }
+#main .column-wrap li .project-number { font-size: 0.7rem; line-height: 0.1rem; margin-bottom: 0.5rem; letter-spacing: 0.05rem; color: #b4b4b4; }
+#main .column-wrap .connected-sortable { list-style: none; }
+#main .column-wrap .document-asset { color: #c8c8c8 !important; padding-top: 0.5rem; }
+#main .column-wrap #include { width: 100%; padding: 0 1rem; }
+#main .column-wrap #include li { width: 85%; color: #282828; }
+#main .column-wrap #exclude { width: 100%; padding: 0 1rem; height: 100%; min-height: 2rem; }
+#main .column-wrap #exclude li { width: 85%; color: #b4b4b4; }
+
+#filename { width: 100%; text-align: center; margin-bottom: 2rem; }
+
+#download { width: 100%; text-align: center; }
