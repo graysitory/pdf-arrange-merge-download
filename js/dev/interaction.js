@@ -10,6 +10,7 @@
 
 
 
+
 // run merge-pdf and download file
 document.getElementById("btn").addEventListener("click", () => {
 
@@ -229,7 +230,7 @@ function buildProjectsList(projects) {
   // loop over all document assets
   for (y in docAssets) {
 
-    // figure out which assets are needed by project type
+    // figure out which assets are needed by project type [only accounts for interiors for this proof of concept]
     if (y === "interiors") {
 
       // build arrays for each document asset item

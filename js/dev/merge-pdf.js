@@ -3,6 +3,10 @@
 
   const pdfs = ['http://mbp2.local:5757/assets/pdf/2019-05-01_Parking_May.pdf', 'http://mbp2.local:5757/assets/pdf/2019-05-01_Parking_May.pdf', 'http://mbp2.local:5757/assets/pdf/binder-order-conf.pdf']
 
+function updateProgressBar(progress, increment) {
+  const percent = progress * increment;
+  document.getElementById("progress-bar-indicator").style.width = `${percent}%`
+}
 
 
 // async-enabled forEach function.
@@ -14,6 +18,9 @@ async function asyncForEach(arr, callback) {
   }
 
 async function mergeMultiplePDFs(pdfArr, downloadFilename) {
+
+  let progress = 0; // set start value. for each pdf merged, this increases by 1
+  let increment = 100 / pdfArr.length; // determine what percent of 100 each document represents
 
   // create a master PDF
   const masterPDF = await PDFDocument.create();
@@ -42,7 +49,8 @@ async function mergeMultiplePDFs(pdfArr, downloadFilename) {
     await asyncForEach(copiedPages, async (page) =>  {
       masterPDF.addPage(page)
     })
-
+    progress++
+    updateProgressBar(progress, increment)
   })
 
 
