@@ -17,12 +17,108 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/assets/pdf/2020-03-19_ZGF Interiors.pdf": {
+	"/assets/.high-res/_interiors_additional-clients.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/.high-res/_interiors_additional-clients.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/_interiors_back.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/.high-res/_interiors_back.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/_interiors_cover.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/.high-res/_interiors_cover.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/_interiors_intro.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/.high-res/_interiors_intro.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/L00909_interiors_google-spruce-goose.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/2020-03-19_ZGF Interiors.pdf",
+		"oAP": "/assets/.high-res/L00909_interiors_google-spruce-goose.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/L90943_interiors_zgf-la-office.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.high-res/L90943_interiors_zgf-la-office.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/L98372_interiors_cedars-sinai-6500-wilshire.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.high-res/L98372_interiors_cedars-sinai-6500-wilshire.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/N15158_interiors_akridge-1200-seventeenth.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.high-res/N15158_interiors_akridge-1200-seventeenth.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/P00004_interiors_washington-trust-bank.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.high-res/P00004_interiors_washington-trust-bank.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/P22965_interiors_clif-bar-headquarters.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.high-res/P22965_interiors_clif-bar-headquarters.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/P32834_interiors_expensify-portland.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.high-res/P32834_interiors_expensify-portland.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/P48294_interiors_hanna-andersson-portland.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.high-res/P48294_interiors_hanna-andersson-portland.pdf",
+		"oF": 0
+		},
+	"/assets/.high-res/S54187_interiors_soma.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.high-res/S54187_interiors_soma.pdf",
 		"oF": 0
 		},
 	"/assets/pdf/_interiors_additional-clients.pdf": {
@@ -41,12 +137,12 @@
 		"oAP": "/assets/pdf/_interiors_back.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/_interiors_Cover.pdf": {
+	"/assets/pdf/_interiors_cover.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/assets/pdf/_interiors_Cover.pdf",
+		"oAP": "/assets/pdf/_interiors_cover.pdf",
 		"oF": 0
 		},
 	"/assets/pdf/_interiors_intro.pdf": {
@@ -129,16 +225,10 @@
 		"oAP": "/assets/pdf/S54187_interiors_soma.pdf",
 		"oF": 0
 		},
-	"/assets/projects.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/assets/projects-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -227,6 +317,17 @@
 		"oA": 0,
 		"oAP": "/js/production/interaction-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/dev/merge-pdf-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/dev/merge-pdf-min-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
