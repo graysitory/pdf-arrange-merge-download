@@ -30,7 +30,7 @@ async function mergeMultiplePDFs(pdfArr, downloadFilename) {
   await asyncForEach(pdfArr, async (filename) => {
     console.log(`Retrieving ${filename}...`)
 
-    const url = `http://mbp2.local:5757/assets/pdf/${filename}`
+    const url = `../assets/pdf/${filename}`
     console.log(url)
 
     // fetch PDF

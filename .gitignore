@@ -1,2 +1,8 @@
 config.rb
+<<<<<<< HEAD
 assets/*
+config.codekit3
+=======
+config.codekit3
+assets/.high-res/
+>>>>>>> progress-bar
