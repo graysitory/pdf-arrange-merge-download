@@ -1,2 +1,3 @@
 config.rb
-assets/*
+config.codekit3
+assets/.high-res/
