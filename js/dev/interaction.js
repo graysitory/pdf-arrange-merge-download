@@ -6,7 +6,8 @@
 // TODO: Create pre-made "sections"-- office, residental, etc.
 // TODO: Add a reset button
 // TODO: Crteate a mongodb for storing data
-// TODO: add progress bar
+// DONE: add progress bar
+// TODO: fix issue with cross-origin so can be run locally
 
 
 
@@ -229,7 +230,7 @@ function buildProjectsList(projects) {
   // loop over all document assets
   for (y in docAssets) {
 
-    // figure out which assets are needed by project type
+    // figure out which assets are needed by project type [only accounts for interiors for this proof of concept]
     if (y === "interiors") {
 
       // build arrays for each document asset item
