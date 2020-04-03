@@ -17,125 +17,109 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/assets/pdf/2020-03-19_ZGF Interiors.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/pdf/2020-03-19_ZGF Interiors.pdf",
-		"oF": 0
-		},
-	"/assets/pdf/_interiors_additional-clients.pdf": {
+	"/assets/.high-res/_interiors_additional-clients.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/assets/pdf/_interiors_additional-clients.pdf",
+		"oAP": "/assets/.high-res/_interiors_additional-clients.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/_interiors_back.pdf": {
+	"/assets/.high-res/_interiors_back.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/assets/pdf/_interiors_back.pdf",
+		"oAP": "/assets/.high-res/_interiors_back.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/_interiors_Cover.pdf": {
+	"/assets/.high-res/_interiors_cover.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/assets/pdf/_interiors_Cover.pdf",
+		"oAP": "/assets/.high-res/_interiors_cover.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/_interiors_intro.pdf": {
+	"/assets/.high-res/_interiors_intro.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/assets/pdf/_interiors_intro.pdf",
+		"oAP": "/assets/.high-res/_interiors_intro.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/L00909_interiors_google-spruce-goose.pdf": {
+	"/assets/.high-res/L00909_interiors_google-spruce-goose.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/L00909_interiors_google-spruce-goose.pdf",
+		"oAP": "/assets/.high-res/L00909_interiors_google-spruce-goose.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/L90943_interiors_zgf-la-office.pdf": {
+	"/assets/.high-res/L90943_interiors_zgf-la-office.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/L90943_interiors_zgf-la-office.pdf",
+		"oAP": "/assets/.high-res/L90943_interiors_zgf-la-office.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/L98372_interiors_cedars-sinai-6500-wilshire.pdf": {
+	"/assets/.high-res/L98372_interiors_cedars-sinai-6500-wilshire.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/L98372_interiors_cedars-sinai-6500-wilshire.pdf",
+		"oAP": "/assets/.high-res/L98372_interiors_cedars-sinai-6500-wilshire.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/N15158_interiors_akridge-1200-seventeenth.pdf": {
+	"/assets/.high-res/N15158_interiors_akridge-1200-seventeenth.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/N15158_interiors_akridge-1200-seventeenth.pdf",
+		"oAP": "/assets/.high-res/N15158_interiors_akridge-1200-seventeenth.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/P00004_interiors_washington-trust-bank.pdf": {
+	"/assets/.high-res/P00004_interiors_washington-trust-bank.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/P00004_interiors_washington-trust-bank.pdf",
+		"oAP": "/assets/.high-res/P00004_interiors_washington-trust-bank.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/P22965_interiors_clif-bar-headquarters.pdf": {
+	"/assets/.high-res/P22965_interiors_clif-bar-headquarters.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/P22965_interiors_clif-bar-headquarters.pdf",
+		"oAP": "/assets/.high-res/P22965_interiors_clif-bar-headquarters.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/P32834_interiors_expensify-portland.pdf": {
+	"/assets/.high-res/P32834_interiors_expensify-portland.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/P32834_interiors_expensify-portland.pdf",
+		"oAP": "/assets/.high-res/P32834_interiors_expensify-portland.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/P48294_interiors_hanna-andersson-portland.pdf": {
+	"/assets/.high-res/P48294_interiors_hanna-andersson-portland.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/P48294_interiors_hanna-andersson-portland.pdf",
+		"oAP": "/assets/.high-res/P48294_interiors_hanna-andersson-portland.pdf",
 		"oF": 0
 		},
-	"/assets/pdf/S54187_interiors_soma.pdf": {
+	"/assets/.high-res/S54187_interiors_soma.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/pdf/S54187_interiors_soma.pdf",
+		"oAP": "/assets/.high-res/S54187_interiors_soma.pdf",
 		"oF": 0
-		},
-	"/assets/projects.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/assets/projects-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"/config.rb": {
 		"ft": 131072,
